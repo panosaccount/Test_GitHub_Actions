@@ -24,7 +24,7 @@ jobs:
       
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
       
-      - run: echo "[github.workspace] is ${{ github.workkspace }}."
+      - run: echo "[github.workspace] is ${{ github.workspace }}."
 
     # ls ${{github.workspace}}: panos
       - name: List files in the repository
