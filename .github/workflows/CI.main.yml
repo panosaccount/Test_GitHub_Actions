@@ -1,14 +1,17 @@
 # https://docs.github.com/en/actions/quickstart
 
 
-name: Workflow_GitHub-Actions-Demo
+name: _workflow_GitHub-Actions-Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 
 jobs:
-  job_Explore-GitHub-Actions:
+  _job_Explore-GitHub-Actions:
     runs-on: ubuntu-latest
+    
     steps:
+    
+    # ${{ github.actor }} is panosaccount
       - run: echo "github.actor is ${{ github.actor }}"
     
     # ${{github.event_name:}}: "push event"
@@ -20,7 +23,7 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       
     # Check out repository code
-      - name: Check out repository code
+      - name: _step_Check out repository code
         uses: actions/checkout@v3
         
     # ${{github.repository}}: panosaccount/Test_GitHub_Actions
@@ -34,7 +37,7 @@ jobs:
     # ls ${{github.workspace}}: 
     # README.md
     # TestGitHubWorkflow
-      - name: List files in the repository    
+      - name: _step_List files in the repository    
         run: |
           ls ${{ github.workspace }}
           
