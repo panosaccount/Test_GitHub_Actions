@@ -1,12 +1,16 @@
 # https://docs.github.com/en/actions/quickstart
 
-name: GitHub Actions Demo
+
+name: Workflow_GitHub-Actions-Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
+
 jobs:
-  Explore-GitHub-Actions:
+  job_Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
+      - run: echo "github.actor is ${{ github.actor }}"
+    
     # ${{github.event_name:}}: "push event"
       - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
     # ${{runner.os}}: "linux"
@@ -23,11 +27,16 @@ jobs:
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       
       - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      
+
+    # ${{ github_workspace }}: /home/runner/work/Test_GitHub_Actions/Test_GitHub_Actions
       - run: echo "[github.workspace] is ${{ github.workspace }}."
 
-    # ls ${{github.workspace}}: panos
-      - name: List files in the repository
+    # ls ${{github.workspace}}: 
+    # README.md
+    # TestGitHubWorkflow
+      - name: List files in the repository    
         run: |
           ls ${{ github.workspace }}
+          
+    # #{{ job.status }}: success
       - run: echo "🍏 This job's status is ${{ job.status }}."
