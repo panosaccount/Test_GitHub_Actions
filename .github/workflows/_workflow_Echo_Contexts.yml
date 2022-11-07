@@ -9,5 +9,132 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       
+      # github.action is __run
       - run: echo "github.action is ${{github.action}}"
+      # github.action_path  is 
+      - run: echo "github.action_path is ${{github.action_path}}"
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
+      # github.  is 
+      - run: echo "github. is ${{github.}}"      
+      
   
