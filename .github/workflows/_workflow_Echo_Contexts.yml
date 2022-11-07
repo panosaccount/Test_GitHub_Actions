@@ -1,0 +1,13 @@
+name: _workflow_Echo_Contexts
+
+on: [push]
+
+jobs:
+  _job_Echo_Contexts:
+    runs-on: ubuntu-latest
+  
+    steps:
+      - uses: actions/checkout@v
+      
+      - run: echo "github.action is ${{github.action}}"
+  
